@@ -116,11 +116,11 @@
 									</li>
 								@endif
 							@endforeach
-							@if($counter==0)
+							<? if($counter==0){ ?>
 								 <div class="mws-dropdown-viewall">
 									<a href="#">No notifications as of yet.</a>
 								</div>
-							@endif
+							<?}?>
                         </ul>
                     </div>
                 </div>
